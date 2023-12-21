@@ -86,4 +86,70 @@ var finances = [
     ['Jan-2017', 138230],
     ['Feb-2017', 671099],
   ];
-  
+
+
+// Array containing financial data: each sub-array has a date and profit/loss value.
+var finances = [
+    // ... (include your entire dataset here)
+];
+
+// Function to analyze the financial data.
+function analyzeFinances(data) {
+  // Count the total number of months in the dataset.
+  let totalMonths = data.length;
+
+  // Initialize total profit/loss to 0.
+  let totalProfitLoss = 0;
+
+  // Store the profit/loss value of the first month as the starting point for calculations.
+  let previousMonthValue = data[0][1];
+
+  // Initialize the total change in profit/loss to 0.
+  let totalChange = 0;
+
+  // Initialize variables to track the greatest increase and decrease in profit/loss.
+  let greatestIncrease = [data[0][0], 0];
+  let greatestDecrease = [data[0][0], 0];
+
+  // Iterate over each month in the dataset.
+  data.forEach((month, index) => {
+    // Add the month's profit/loss to the total.
+    totalProfitLoss += month[1];
+    
+    // Skip the first month for change calculation as there's no previous month to compare.
+    if (index > 0) {
+      // Calculate the change in profit/loss from the previous month.
+      let monthlyChange = month[1] - previousMonthValue;
+      // Add the change to the total change.
+      totalChange += monthlyChange;
+
+      // Check and update the greatest increase in profit/loss.
+      if (monthlyChange > greatestIncrease[1]) {
+        greatestIncrease = [month[0], monthlyChange];
+      }
+
+      // Check and update the greatest decrease in profit/loss.
+      if (monthlyChange < greatestDecrease[1]) {
+        greatestDecrease = [month[0], monthlyChange];
+      }
+
+      // Update the previous month's value for the next iteration.
+      previousMonthValue = month[1];
+    }
+  });
+
+  // Calculate the average change in profit/loss.
+  let averageChange = totalChange / (totalMonths - 1);
+
+  // Output the financial analysis to the console.
+  console.log("Financial Analysis");
+  console.log("----------------");
+  console.log("Total Months:", totalMonths);
+  console.log("Total: $" + totalProfitLoss);
+  console.log("Average Change: $" + averageChange.toFixed(2));
+  console.log("Greatest Increase in Profits/Losses: " + greatestIncrease[0] + " ($" + greatestIncrease[1] + ")");
+  console.log("Greatest Decrease in Profits/Losses: " + greatestDecrease[0] + " ($" + greatestDecrease[1] + ")");
+}
+
+// Execute the analysis function with the provided financial data.
+analyzeFinances(finances);
