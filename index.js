@@ -1,3 +1,4 @@
+// Array containing financial data: each sub-array has a date and profit/loss value.
 var finances = [
     ['Jan-2010', 867884],
     ['Feb-2010', 984655],
@@ -86,12 +87,6 @@ var finances = [
     ['Jan-2017', 138230],
     ['Feb-2017', 671099],
   ];
-
-
-// Array containing financial data: each sub-array has a date and profit/loss value.
-var finances = [
-    // ... (include your entire dataset here)
-];
 
 // Function to analyze the financial data.
 function analyzeFinances(data) {
