@@ -147,9 +147,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - your-email@example.com
+Your Name - Toussaintphillips@gmail.com
 
-Project Link: [https://github.com/your-github-username/Console-Finances](https://github.com/your-github-username/Console-Finances)
+Project Link: [https://github.com/your-github-username/Console-Finances](https://github.com/ToussaintPhillips/Console-Finances)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
