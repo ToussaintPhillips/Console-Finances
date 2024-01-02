@@ -17,11 +17,11 @@
     <a href="https://github.com/your-github-username/Console-Finances"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://your-github-username.github.io/Console-Finances/">View Demo</a>
+    <a href="https://ToussaintPhillips.github.io/Console-Finances/">View Demo</a>
     ·
-    <a href="https://github.com/your-github-username/Console-Finances/issues">Report Bug</a>
+    <a href="https://github.com/ToussaintPhillips/Console-Finances/issues">Report Bug</a>
     ·
-    <a href="https://github.com/your-github-username/Console-Finances/issues">Request Feature</a>
+    <a href="https://github.com/ToussaintPhillips/Console-Finances/issues">Request Feature</a>
   </p>
 </div>
 
@@ -120,7 +120,7 @@ No prerequisites are needed for this project.
 - [ ] Implement additional financial analysis features
 - [ ] Enhance data visualization
 
-See the [open issues](https://github.com/your-github-username/Console-Finances/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/ToussaintPhillips/Console-Finances/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -147,7 +147,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - Toussaintphillips@gmail.com
+Email - Toussaintphillips@gmail.com
 
 Project Link: [https://github.com/your-github-username/Console-Finances](https://github.com/ToussaintPhillips/Console-Finances)
 
