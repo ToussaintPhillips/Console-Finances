@@ -6,7 +6,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/your-github-username/Console-Finances">
-    <img src="assets/images/finance-logo.png" alt="Logo" width="80" height="80">
+    <img src="" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Console Finances</h3>
@@ -46,7 +46,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![Project Screenshot](Console-Finances-Screenshot.png)
+![Project Screenshot](Console-Finances.png)
 
 This portfolio template is a showcase of skills and projects, featuring a sleek design and responsive layout built with Bootstrap. It's perfect for anyone looking to create a professional online presence.
 
