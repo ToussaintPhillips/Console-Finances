@@ -2,13 +2,6 @@
 
 <a name="readme-top"></a>
 
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
-  <a href="https://github.com/your-github-username/Console-Finances">
-    <img src="" alt="Logo" width="80" height="80">
-  </a>
-
   <h3 align="center">Console Finances</h3>
 
   <p align="center">
@@ -149,7 +142,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Email - Toussaintphillips@gmail.com
 
-Project Link: [https://github.com/your-github-username/Console-Finances](https://github.com/ToussaintPhillips/Console-Finances)
+Project Link: [https://ToussaintPhillips.github.io/Console-Finances/]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
