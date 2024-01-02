@@ -7,7 +7,7 @@
   <p align="center">
     A comprehensive financial analysis tool using JavaScript.
     <br />
-    <a href="https://github.com/your-github-username/Console-Finances"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/your-github-username/Console-Finances"><strong>
     <br />
     <br />
     <a href="https://ToussaintPhillips.github.io/Console-Finances/">View Demo</a>
